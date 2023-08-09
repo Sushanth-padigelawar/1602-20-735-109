@@ -11,12 +11,12 @@ const TrainSchedule = () => {
       try {
         // Get the authorization token first
         const authResponse = await axios.post('http://20.244.56.144/train/auth', {
-          companyName: 'Abcd',
-          clientID: '6acbf5ba-c3ca-40ea-860d-6a59218888fa',
-          ownerName: 'Harshith',
-          ownerEmail: 'sreeharshithvajinepalli7@gmail.com',
-          rollNo: '160120733054',
-          clientSecret: 'FFHyEoMLDLLEhEqi'
+          companyName: 'Trainsmana',
+          clientID: '4299240d-5f94-49ae-b8cf-1181e7a9da2b',
+          ownerName: 'Sushanth',
+          ownerEmail: 'psushanth04@gmail.com',
+          rollNo: '160220735109',
+          clientSecret: 'OniOqWYIJMqLchMk'
         });
 
         const token = authResponse.data.access_token;
